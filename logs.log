@@ -2997,3 +2997,10 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-05-17 22:40:03,581:INFO:Scoring test/hold-out set
 2025-05-17 22:40:03,742:INFO:Visual Rendered Successfully
 2025-05-17 22:40:03,797:INFO:plot_model() successfully completed......................................
+2025-05-17 22:46:52,285:INFO:Initializing predict_model()
+2025-05-17 22:46:52,285:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000020AB93CEE50>, estimator=DummyClassifier(constant=None, random_state=123, strategy='prior'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020ABBA64C20>)
+2025-05-17 22:46:52,285:INFO:Checking exceptions
+2025-05-17 22:46:52,285:INFO:Preloading libraries
+2025-05-17 22:46:52,392:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
