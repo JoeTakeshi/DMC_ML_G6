@@ -5223,3 +5223,187 @@ Alternately, you can install this by running `pip install pycaret[models]`
                  GaussianNB(priors=None, var_smoothing=1e-09))],
          verbose=False)
 2025-05-18 15:00:41,752:INFO:save_model() successfully completed......................................
+2025-05-18 15:15:03,848:INFO:Initializing predict_model()
+2025-05-18 15:15:03,848:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206DF0F7F60>)
+2025-05-18 15:15:03,849:INFO:Checking exceptions
+2025-05-18 15:15:03,849:INFO:Preloading libraries
+2025-05-18 15:56:25,472:INFO:Initializing predict_model()
+2025-05-18 15:56:25,472:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F2520>)
+2025-05-18 15:56:25,472:INFO:Checking exceptions
+2025-05-18 15:56:25,473:INFO:Preloading libraries
+2025-05-18 16:02:41,892:INFO:Initializing predict_model()
+2025-05-18 16:02:41,892:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F3EC0>)
+2025-05-18 16:02:41,892:INFO:Checking exceptions
+2025-05-18 16:02:41,892:INFO:Preloading libraries
+2025-05-18 16:04:41,572:INFO:Initializing predict_model()
+2025-05-18 16:04:41,572:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206DF113060>)
+2025-05-18 16:04:41,572:INFO:Checking exceptions
+2025-05-18 16:04:41,572:INFO:Preloading libraries
+2025-05-18 16:05:59,750:INFO:Initializing predict_model()
+2025-05-18 16:05:59,750:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F1620>)
+2025-05-18 16:05:59,750:INFO:Checking exceptions
+2025-05-18 16:05:59,750:INFO:Preloading libraries
+2025-05-18 16:05:59,927:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:05:59,929:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:05:59,930:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:09:39,429:INFO:Initializing predict_model()
+2025-05-18 16:09:39,429:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F28E0>)
+2025-05-18 16:09:39,429:INFO:Checking exceptions
+2025-05-18 16:09:39,429:INFO:Preloading libraries
+2025-05-18 16:09:39,605:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:09:39,607:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:09:39,608:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:24,334:INFO:Initializing predict_model()
+2025-05-18 16:10:24,334:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206DF0F7740>)
+2025-05-18 16:10:24,334:INFO:Checking exceptions
+2025-05-18 16:10:24,334:INFO:Preloading libraries
+2025-05-18 16:10:24,511:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:24,513:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:24,515:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:30,526:INFO:Initializing predict_model()
+2025-05-18 16:10:30,526:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206DF0F74C0>)
+2025-05-18 16:10:30,526:INFO:Checking exceptions
+2025-05-18 16:10:30,526:INFO:Preloading libraries
+2025-05-18 16:10:30,686:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:30,689:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:30,690:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:39,285:INFO:Initializing predict_model()
+2025-05-18 16:10:39,285:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206DF0F72E0>)
+2025-05-18 16:10:39,286:INFO:Checking exceptions
+2025-05-18 16:10:39,286:INFO:Preloading libraries
+2025-05-18 16:10:39,447:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:39,449:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:39,450:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:47,672:INFO:Initializing predict_model()
+2025-05-18 16:10:47,672:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F0540>)
+2025-05-18 16:10:47,672:INFO:Checking exceptions
+2025-05-18 16:10:47,673:INFO:Preloading libraries
+2025-05-18 16:10:47,851:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:47,853:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:47,855:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:50,313:INFO:Initializing predict_model()
+2025-05-18 16:10:50,313:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F1800>)
+2025-05-18 16:10:50,313:INFO:Checking exceptions
+2025-05-18 16:10:50,313:INFO:Preloading libraries
+2025-05-18 16:10:50,479:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:50,481:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:10:50,483:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:32,841:INFO:Initializing predict_model()
+2025-05-18 16:12:32,841:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206D9847600>)
+2025-05-18 16:12:32,841:INFO:Checking exceptions
+2025-05-18 16:12:32,841:INFO:Preloading libraries
+2025-05-18 16:12:33,015:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:33,017:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:33,018:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:44,600:INFO:Initializing predict_model()
+2025-05-18 16:12:44,600:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206DF0F74C0>)
+2025-05-18 16:12:44,600:INFO:Checking exceptions
+2025-05-18 16:12:44,601:INFO:Preloading libraries
+2025-05-18 16:12:44,774:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:44,776:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:44,778:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:58,078:INFO:Initializing predict_model()
+2025-05-18 16:12:58,078:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F14E0>)
+2025-05-18 16:12:58,078:INFO:Checking exceptions
+2025-05-18 16:12:58,078:INFO:Preloading libraries
+2025-05-18 16:12:58,235:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:58,237:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:12:58,238:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:13:06,424:INFO:Initializing predict_model()
+2025-05-18 16:13:06,424:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F2700>)
+2025-05-18 16:13:06,424:INFO:Checking exceptions
+2025-05-18 16:13:06,424:INFO:Preloading libraries
+2025-05-18 16:13:06,586:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:13:06,588:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:13:06,589:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:13:26,744:INFO:Initializing predict_model()
+2025-05-18 16:13:26,745:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F14E0>)
+2025-05-18 16:13:26,745:INFO:Checking exceptions
+2025-05-18 16:13:26,745:INFO:Preloading libraries
+2025-05-18 16:14:45,407:INFO:Initializing predict_model()
+2025-05-18 16:14:45,407:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000206D9407F10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000206E08F1800>)
+2025-05-18 16:14:45,407:INFO:Checking exceptions
+2025-05-18 16:14:45,407:INFO:Preloading libraries
+2025-05-18 16:14:45,580:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:14:45,582:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:14:45,584:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 16:16:08,181:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-18 16:16:08,181:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-18 16:16:08,181:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-18 16:16:08,181:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
