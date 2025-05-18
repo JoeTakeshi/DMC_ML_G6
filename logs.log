@@ -4014,3 +4014,240 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-05-18 12:50:15,395:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F139CAF590>, estimator=<function tune_model at 0x000001F16DC7F100>, probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F170B967A0>)
 2025-05-18 12:50:15,395:INFO:Checking exceptions
 2025-05-18 12:50:15,395:INFO:Preloading libraries
+2025-05-18 12:52:06,158:INFO:Initializing tune_model()
+2025-05-18 12:52:06,159:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F139CAF590>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-05-18 12:52:06,159:INFO:Checking exceptions
+2025-05-18 12:52:06,174:INFO:Copying training dataset
+2025-05-18 12:52:06,177:INFO:Checking base model
+2025-05-18 12:52:06,178:INFO:Base model : Random Forest Classifier
+2025-05-18 12:52:06,183:INFO:Declaring metric variables
+2025-05-18 12:52:06,188:INFO:Defining Hyperparameters
+2025-05-18 12:52:06,275:INFO:Tuning with n_jobs=-1
+2025-05-18 12:52:06,275:INFO:Initializing RandomizedSearchCV
+2025-05-18 12:52:14,096:INFO:best_params: {'actual_estimator__n_estimators': 70, 'actual_estimator__min_samples_split': 9, 'actual_estimator__min_samples_leaf': 4, 'actual_estimator__min_impurity_decrease': 0.1, 'actual_estimator__max_features': 'sqrt', 'actual_estimator__max_depth': 3, 'actual_estimator__criterion': 'gini', 'actual_estimator__class_weight': {}, 'actual_estimator__bootstrap': False}
+2025-05-18 12:52:14,097:INFO:Hyperparameter search completed
+2025-05-18 12:52:14,097:INFO:SubProcess create_model() called ==================================
+2025-05-18 12:52:14,097:INFO:Initializing create_model()
+2025-05-18 12:52:14,097:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F139CAF590>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F170163410>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'n_estimators': 70, 'min_samples_split': 9, 'min_samples_leaf': 4, 'min_impurity_decrease': 0.1, 'max_features': 'sqrt', 'max_depth': 3, 'criterion': 'gini', 'class_weight': {}, 'bootstrap': False})
+2025-05-18 12:52:14,097:INFO:Checking exceptions
+2025-05-18 12:52:14,097:INFO:Importing libraries
+2025-05-18 12:52:14,097:INFO:Copying training dataset
+2025-05-18 12:52:14,104:INFO:Defining folds
+2025-05-18 12:52:14,104:INFO:Declaring metric variables
+2025-05-18 12:52:14,107:INFO:Importing untrained model
+2025-05-18 12:52:14,107:INFO:Declaring custom model
+2025-05-18 12:52:14,111:INFO:Random Forest Classifier Imported successfully
+2025-05-18 12:52:14,117:INFO:Starting cross validation
+2025-05-18 12:52:14,119:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-18 12:52:14,360:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,364:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,364:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,367:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,368:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,369:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,370:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,371:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,377:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,383:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,396:INFO:Calculating mean and std
+2025-05-18 12:52:14,397:INFO:Creating metrics dataframe
+2025-05-18 12:52:14,401:INFO:Finalizing model
+2025-05-18 12:52:14,508:INFO:Uploading results into container
+2025-05-18 12:52:14,508:INFO:Uploading model into container now
+2025-05-18 12:52:14,509:INFO:_master_model_container: 16
+2025-05-18 12:52:14,509:INFO:_display_container: 4
+2025-05-18 12:52:14,509:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='gini', max_depth=3, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.1, min_samples_leaf=4,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=70, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-05-18 12:52:14,509:INFO:create_model() successfully completed......................................
+2025-05-18 12:52:14,577:INFO:SubProcess create_model() end ==================================
+2025-05-18 12:52:14,577:INFO:choose_better activated
+2025-05-18 12:52:14,580:INFO:SubProcess create_model() called ==================================
+2025-05-18 12:52:14,580:INFO:Initializing create_model()
+2025-05-18 12:52:14,580:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F139CAF590>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-18 12:52:14,581:INFO:Checking exceptions
+2025-05-18 12:52:14,582:INFO:Importing libraries
+2025-05-18 12:52:14,582:INFO:Copying training dataset
+2025-05-18 12:52:14,585:INFO:Defining folds
+2025-05-18 12:52:14,585:INFO:Declaring metric variables
+2025-05-18 12:52:14,585:INFO:Importing untrained model
+2025-05-18 12:52:14,585:INFO:Declaring custom model
+2025-05-18 12:52:14,586:INFO:Random Forest Classifier Imported successfully
+2025-05-18 12:52:14,586:INFO:Starting cross validation
+2025-05-18 12:52:14,587:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-18 12:52:14,892:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,896:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,897:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,897:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,899:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,900:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,903:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,915:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:14,927:INFO:Calculating mean and std
+2025-05-18 12:52:14,927:INFO:Creating metrics dataframe
+2025-05-18 12:52:14,928:INFO:Finalizing model
+2025-05-18 12:52:15,068:INFO:Uploading results into container
+2025-05-18 12:52:15,068:INFO:Uploading model into container now
+2025-05-18 12:52:15,069:INFO:_master_model_container: 17
+2025-05-18 12:52:15,069:INFO:_display_container: 5
+2025-05-18 12:52:15,069:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-05-18 12:52:15,069:INFO:create_model() successfully completed......................................
+2025-05-18 12:52:15,136:INFO:SubProcess create_model() end ==================================
+2025-05-18 12:52:15,137:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False) result for Accuracy is 0.81
+2025-05-18 12:52:15,137:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='gini', max_depth=3, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.1, min_samples_leaf=4,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=70, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False) result for Accuracy is 0.8291
+2025-05-18 12:52:15,137:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='gini', max_depth=3, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.1, min_samples_leaf=4,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=70, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False) is best model
+2025-05-18 12:52:15,137:INFO:choose_better completed
+2025-05-18 12:52:15,145:INFO:_master_model_container: 17
+2025-05-18 12:52:15,145:INFO:_display_container: 4
+2025-05-18 12:52:15,145:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='gini', max_depth=3, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.1, min_samples_leaf=4,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=70, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-05-18 12:52:15,145:INFO:tune_model() successfully completed......................................
+2025-05-18 12:52:20,949:INFO:Initializing evaluate_model()
+2025-05-18 12:52:20,949:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F139CAF590>, estimator=RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='gini', max_depth=3, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.1, min_samples_leaf=4,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=70, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2025-05-18 12:52:20,958:INFO:Initializing plot_model()
+2025-05-18 12:52:20,958:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F139CAF590>, estimator=RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='gini', max_depth=3, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.1, min_samples_leaf=4,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=70, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-18 12:52:20,958:INFO:Checking exceptions
+2025-05-18 12:52:20,960:INFO:Preloading libraries
+2025-05-18 12:52:20,966:INFO:Copying training dataset
+2025-05-18 12:52:20,966:INFO:Plot type: pipeline
+2025-05-18 12:52:21,194:INFO:Visual Rendered Successfully
+2025-05-18 12:52:21,263:INFO:plot_model() successfully completed......................................
+2025-05-18 12:52:27,321:INFO:Initializing predict_model()
+2025-05-18 12:52:27,321:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F139CAF590>, estimator=RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='gini', max_depth=3, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.1, min_samples_leaf=4,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=70, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001F170B4BD80>)
+2025-05-18 12:52:27,322:INFO:Checking exceptions
+2025-05-18 12:52:27,322:INFO:Preloading libraries
+2025-05-18 12:52:27,463:WARNING:c:\Users\GGjoe\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-18 12:52:49,930:INFO:Initializing plot_model()
+2025-05-18 12:52:49,930:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001F139CAF590>, estimator=RandomForestClassifier(bootstrap=False, ccp_alpha=0.0, class_weight={},
+                       criterion='gini', max_depth=3, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.1, min_samples_leaf=4,
+                       min_samples_split=9, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=70, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), plot=parameter, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-18 12:52:49,930:INFO:Checking exceptions
+2025-05-18 12:52:49,932:INFO:Preloading libraries
+2025-05-18 12:52:49,937:INFO:Copying training dataset
+2025-05-18 12:52:49,937:INFO:Plot type: parameter
+2025-05-18 12:52:49,940:INFO:Visual Rendered Successfully
+2025-05-18 12:52:50,023:INFO:plot_model() successfully completed......................................
