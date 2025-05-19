@@ -35313,3 +35313,76 @@ Please also refer to the documentation for alternative solver options:
 2025-05-18 20:15:58,561:INFO:Plot type: pipeline
 2025-05-18 20:15:58,712:INFO:Visual Rendered Successfully
 2025-05-18 20:15:58,787:INFO:plot_model() successfully completed......................................
+2025-05-18 20:16:33,730:INFO:Initializing predict_model()
+2025-05-18 20:16:33,730:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002307C9ADED0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002300344FEC0>)
+2025-05-18 20:16:33,730:INFO:Checking exceptions
+2025-05-18 20:16:33,730:INFO:Preloading libraries
+2025-05-18 20:16:33,732:INFO:Set up data.
+2025-05-18 20:16:33,735:INFO:Set up index.
+2025-05-18 20:16:33,878:INFO:Initializing predict_model()
+2025-05-18 20:16:33,878:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002307C9ADED0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000023004B2A980>)
+2025-05-18 20:16:33,878:INFO:Checking exceptions
+2025-05-18 20:16:33,878:INFO:Preloading libraries
+2025-05-18 20:16:33,879:INFO:Set up data.
+2025-05-18 20:16:33,882:INFO:Set up index.
+2025-05-18 20:16:44,037:INFO:Initializing save_model()
+2025-05-18 20:16:44,037:INFO:save_model(model=GaussianNB(priors=None, var_smoothing=1e-09), model_name=modelo_scoring_credito_final, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\GGjoe\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'ingreso_mensual',
+                                             'tiempo_laboral_meses',
+                                             'riesgo_cuota'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('c...
+                ('bin_numeric_features',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'ingreso_mensual'],
+                                    transformer=KBinsDiscretizer(dtype=None,
+                                                                 encode='ordinal',
+                                                                 n_bins=5,
+                                                                 random_state=None,
+                                                                 strategy='kmeans',
+                                                                 subsample='warn'))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-05-18 20:16:44,037:INFO:Adding model into prep_pipe
+2025-05-18 20:16:44,046:INFO:modelo_scoring_credito_final.pkl saved in current working directory
+2025-05-18 20:16:44,053:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'ingreso_mensual',
+                                             'tiempo_laboral_meses',
+                                             'riesgo_cuota'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 TransformerWrapper(e...
+                                    include=['edad', 'ingreso_mensual'],
+                                    transformer=KBinsDiscretizer(dtype=None,
+                                                                 encode='ordinal',
+                                                                 n_bins=5,
+                                                                 random_state=None,
+                                                                 strategy='kmeans',
+                                                                 subsample='warn'))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False))),
+                ('trained_model',
+                 GaussianNB(priors=None, var_smoothing=1e-09))],
+         verbose=False)
+2025-05-18 20:16:44,054:INFO:save_model() successfully completed......................................
