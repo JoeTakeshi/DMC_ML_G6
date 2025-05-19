@@ -23047,3 +23047,66 @@ Please also refer to the documentation for alternative solver options:
 2025-05-18 19:23:54,491:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000273312C0B10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000273312623E0>)
 2025-05-18 19:23:54,492:INFO:Checking exceptions
 2025-05-18 19:23:54,492:INFO:Preloading libraries
+2025-05-18 19:29:20,527:INFO:Initializing predict_model()
+2025-05-18 19:29:20,527:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000273312C0B10>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000273313371A0>)
+2025-05-18 19:29:20,527:INFO:Checking exceptions
+2025-05-18 19:29:20,527:INFO:Preloading libraries
+2025-05-18 19:29:20,529:INFO:Set up data.
+2025-05-18 19:29:20,534:INFO:Set up index.
+2025-05-18 19:31:11,116:INFO:Initializing save_model()
+2025-05-18 19:31:11,116:INFO:save_model(model=GaussianNB(priors=None, var_smoothing=1e-09), model_name=modelo_retencion_talento, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\GGjoe\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['antiguedad_meses', 'satisfaccion',
+                                             'promociones', 'home_office'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('ca...
+                ('remove_multicollinearity',
+                 TransformerWrapper(exclude=[], include=None,
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('bin_numeric_features',
+                 TransformerWrapper(exclude=None,
+                                    include=['antiguedad_meses',
+                                             'satisfaccion'],
+                                    transformer=KBinsDiscretizer(dtype=None,
+                                                                 encode='ordinal',
+                                                                 n_bins=5,
+                                                                 random_state=None,
+                                                                 strategy='kmeans',
+                                                                 subsample='warn')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-05-18 19:31:11,116:INFO:Adding model into prep_pipe
+2025-05-18 19:31:11,122:INFO:modelo_retencion_talento.pkl saved in current working directory
+2025-05-18 19:31:11,138:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['antiguedad_meses', 'satisfaccion',
+                                             'promociones', 'home_office'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 TransformerWrapper(ex...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('bin_numeric_features',
+                 TransformerWrapper(exclude=None,
+                                    include=['antiguedad_meses',
+                                             'satisfaccion'],
+                                    transformer=KBinsDiscretizer(dtype=None,
+                                                                 encode='ordinal',
+                                                                 n_bins=5,
+                                                                 random_state=None,
+                                                                 strategy='kmeans',
+                                                                 subsample='warn'))),
+                ('trained_model',
+                 GaussianNB(priors=None, var_smoothing=1e-09))],
+         verbose=False)
+2025-05-18 19:31:11,139:INFO:save_model() successfully completed......................................
