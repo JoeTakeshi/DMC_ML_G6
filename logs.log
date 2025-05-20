@@ -38738,3 +38738,82 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-05-19 20:34:15,086:INFO:Preloading libraries
 2025-05-19 20:34:15,096:INFO:Set up data.
 2025-05-19 20:34:15,111:INFO:Set up index.
+2025-05-19 20:36:41,868:INFO:Initializing save_model()
+2025-05-19 20:36:41,868:INFO:save_model(model=AdaBoostClassifier(algorithm='SAMME.R', estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=2025), model_name=modelo_marketing_conversion_predictor, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\GGjoe\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['likes', 'comentarios',
+                                             'engagement'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 Transfor...
+                                                                                         learning_rate=0.1,
+                                                                                         max_depth=-1,
+                                                                                         min_child_samples=20,
+                                                                                         min_child_weight=0.001,
+                                                                                         min_split_gain=0.0,
+                                                                                         n_estimators=100,
+                                                                                         n_jobs=None,
+                                                                                         num_leaves=31,
+                                                                                         objective=None,
+                                                                                         random_state=None,
+                                                                                         reg_alpha=0.0,
+                                                                                         reg_lambda=0.0,
+                                                                                         subsample=1.0,
+                                                                                         subsample_for_bin=200000,
+                                                                                         subsample_freq=0),
+                                                                importance_getter='auto',
+                                                                max_features=1,
+                                                                norm_order=1,
+                                                                prefit=False,
+                                                                threshold=-inf)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-05-19 20:36:41,869:INFO:Adding model into prep_pipe
+2025-05-19 20:36:42,011:INFO:modelo_marketing_conversion_predictor.pkl saved in current working directory
+2025-05-19 20:36:42,064:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['likes', 'comentarios',
+                                             'engagement'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['plataf...
+                                                                                         num_leaves=31,
+                                                                                         objective=None,
+                                                                                         random_state=None,
+                                                                                         reg_alpha=0.0,
+                                                                                         reg_lambda=0.0,
+                                                                                         subsample=1.0,
+                                                                                         subsample_for_bin=200000,
+                                                                                         subsample_freq=0),
+                                                                importance_getter='auto',
+                                                                max_features=1,
+                                                                norm_order=1,
+                                                                prefit=False,
+                                                                threshold=-inf))),
+                ('trained_model',
+                 AdaBoostClassifier(algorithm='SAMME.R', estimator=None,
+                                    learning_rate=1.0, n_estimators=50,
+                                    random_state=2025))],
+         verbose=False)
+2025-05-19 20:36:42,065:INFO:save_model() successfully completed......................................
+2025-05-19 21:20:46,234:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-19 21:20:46,234:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-19 21:20:46,234:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-19 21:20:46,234:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
