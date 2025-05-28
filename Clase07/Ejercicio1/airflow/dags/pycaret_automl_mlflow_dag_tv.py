@@ -8,7 +8,7 @@ default_args = {
 }
 
 dag = DAG(
-    'pycaret_automl_mlflow',
+    'pycaret_automl_mlflow_tv',
     default_args=default_args,
     schedule_interval=None,
     catchup=False,
@@ -17,7 +17,11 @@ dag = DAG(
 
 run_pycaret = BashOperator(
     task_id='run_pycaret_script',
-    bash_command='cd /home/ubuntu/scripts && source ~/mlflow_project/venv-mlflow/bin/activate && python pycaret_automl_mlflow.py',
+    bash_command=(
+        'cd /home/brangovich_dmc/scripts &&' #'cd /home/ubuntu/scripts && '
+        'source ~/mlflow_project/venv-mlflow/bin/activate && '
+        'python pycaret_automl_mlflow_tv.py'
+    ),
     dag=dag,
 )
 
