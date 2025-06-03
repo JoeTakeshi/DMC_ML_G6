@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/mlruns/885053210469134703/f52d5eba77e843abbcc35d0d71a66b1e/artifacts
+end_time: 1748915658011
+entry_point_name: ''
+experiment_id: '885053210469134703'
+lifecycle_stage: active
+run_id: f52d5eba77e843abbcc35d0d71a66b1e
+run_name: K Neighbors Classifier
+run_uuid: f52d5eba77e843abbcc35d0d71a66b1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748915657738
+status: 3
+tags: []
+user_id: GGjoe

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase08/Ejercicio01/mlruns/669578845278764308/937fe6bf1b284bfcb368c81c77415ae3/artifacts
+end_time: 1748917248679
+entry_point_name: ''
+experiment_id: '669578845278764308'
+lifecycle_stage: active
+run_id: 937fe6bf1b284bfcb368c81c77415ae3
+run_name: Ridge Classifier
+run_uuid: 937fe6bf1b284bfcb368c81c77415ae3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748917248466
+status: 3
+tags: []
+user_id: GGjoe

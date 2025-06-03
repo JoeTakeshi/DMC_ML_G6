@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/mlruns/885053210469134703/cd6beee283a1454db3fb07f90092f96a/artifacts
+end_time: 1748915663851
+entry_point_name: ''
+experiment_id: '885053210469134703'
+lifecycle_stage: active
+run_id: cd6beee283a1454db3fb07f90092f96a
+run_name: Session Initialized 17d0
+run_uuid: cd6beee283a1454db3fb07f90092f96a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748915637335
+status: 3
+tags: []
+user_id: GGjoe

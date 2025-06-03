@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase08/Ejercicio01/mlruns/669578845278764308/44865ee8c5be4908be10d61265705de8/artifacts
+end_time: 1748917256271
+entry_point_name: ''
+experiment_id: '669578845278764308'
+lifecycle_stage: active
+run_id: 44865ee8c5be4908be10d61265705de8
+run_name: Logistic Regression
+run_uuid: 44865ee8c5be4908be10d61265705de8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748917254502
+status: 3
+tags: []
+user_id: GGjoe

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/mlruns/885053210469134703/3d4bc54d4d9d4f6f9f32b9ffa81cbd4e/artifacts
+end_time: 1748916740061
+entry_point_name: ''
+experiment_id: '885053210469134703'
+lifecycle_stage: active
+run_id: 3d4bc54d4d9d4f6f9f32b9ffa81cbd4e
+run_name: Random Forest Classifier
+run_uuid: 3d4bc54d4d9d4f6f9f32b9ffa81cbd4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748916739826
+status: 3
+tags: []
+user_id: GGjoe

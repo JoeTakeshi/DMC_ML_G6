@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/mlruns/885053210469134703/8e27b3d773924a1795f78689708a35b3/artifacts
+end_time: 1748916742435
+entry_point_name: ''
+experiment_id: '885053210469134703'
+lifecycle_stage: active
+run_id: 8e27b3d773924a1795f78689708a35b3
+run_name: Decision Tree Classifier
+run_uuid: 8e27b3d773924a1795f78689708a35b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748916742189
+status: 3
+tags: []
+user_id: GGjoe

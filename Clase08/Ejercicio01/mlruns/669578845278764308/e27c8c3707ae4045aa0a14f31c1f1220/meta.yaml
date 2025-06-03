@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase08/Ejercicio01/mlruns/669578845278764308/e27c8c3707ae4045aa0a14f31c1f1220/artifacts
+end_time: 1748917250508
+entry_point_name: ''
+experiment_id: '669578845278764308'
+lifecycle_stage: active
+run_id: e27c8c3707ae4045aa0a14f31c1f1220
+run_name: Gradient Boosting Classifier
+run_uuid: e27c8c3707ae4045aa0a14f31c1f1220
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748917250253
+status: 3
+tags: []
+user_id: GGjoe

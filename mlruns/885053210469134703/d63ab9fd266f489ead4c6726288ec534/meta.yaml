@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/mlruns/885053210469134703/d63ab9fd266f489ead4c6726288ec534/artifacts
+end_time: 1748915658691
+entry_point_name: ''
+experiment_id: '885053210469134703'
+lifecycle_stage: active
+run_id: d63ab9fd266f489ead4c6726288ec534
+run_name: SVM - Linear Kernel
+run_uuid: d63ab9fd266f489ead4c6726288ec534
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748915658421
+status: 3
+tags: []
+user_id: GGjoe

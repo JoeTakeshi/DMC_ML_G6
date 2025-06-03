@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/mlruns/885053210469134703/a78935500a714773a44b23cd90da4e5c/artifacts
+end_time: 1748916739487
+entry_point_name: ''
+experiment_id: '885053210469134703'
+lifecycle_stage: active
+run_id: a78935500a714773a44b23cd90da4e5c
+run_name: Naive Bayes
+run_uuid: a78935500a714773a44b23cd90da4e5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748916739227
+status: 3
+tags: []
+user_id: GGjoe
