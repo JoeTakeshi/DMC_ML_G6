@@ -5347,3 +5347,283 @@ AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2025-06-04 22:08:57,976:INFO:Initializing load_model()
 2025-06-04 22:08:57,976:INFO:load_model(model_name=modelo_responde_oferta, platform=None, authentication=None, verbose=True)
+2025-06-04 22:10:24,161:INFO:Initializing predict_model()
+2025-06-04 22:10:24,161:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ECFCD4A10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021E97D07740>)
+2025-06-04 22:10:24,161:INFO:Checking exceptions
+2025-06-04 22:10:24,161:INFO:Preloading libraries
+2025-06-04 22:10:24,161:INFO:Set up data.
+2025-06-04 22:10:24,165:INFO:Set up index.
+2025-06-04 22:10:25,190:INFO:Initializing predict_model()
+2025-06-04 22:10:25,190:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED0347550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021ECF487100>)
+2025-06-04 22:10:25,190:INFO:Checking exceptions
+2025-06-04 22:10:25,190:INFO:Preloading libraries
+2025-06-04 22:10:25,190:INFO:Set up data.
+2025-06-04 22:10:25,194:INFO:Set up index.
+2025-06-04 22:10:33,185:INFO:Initializing predict_model()
+2025-06-04 22:10:33,185:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED0345950>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021ED03E4860>)
+2025-06-04 22:10:33,185:INFO:Checking exceptions
+2025-06-04 22:10:33,185:INFO:Preloading libraries
+2025-06-04 22:10:33,186:INFO:Set up data.
+2025-06-04 22:10:33,189:INFO:Set up index.
+2025-06-04 22:10:51,542:INFO:Initializing predict_model()
+2025-06-04 22:10:51,542:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED0344C10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021E984F7C40>)
+2025-06-04 22:10:51,542:INFO:Checking exceptions
+2025-06-04 22:10:51,542:INFO:Preloading libraries
+2025-06-04 22:10:51,542:INFO:Set up data.
+2025-06-04 22:10:51,546:INFO:Set up index.
+2025-06-04 22:11:01,102:INFO:Initializing predict_model()
+2025-06-04 22:11:01,102:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED034CB90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021E97D07740>)
+2025-06-04 22:11:01,102:INFO:Checking exceptions
+2025-06-04 22:11:01,102:INFO:Preloading libraries
+2025-06-04 22:11:01,102:INFO:Set up data.
+2025-06-04 22:11:01,105:INFO:Set up index.
+2025-06-04 22:11:18,547:INFO:Initializing predict_model()
+2025-06-04 22:11:18,547:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED032DFD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021ED0366340>)
+2025-06-04 22:11:18,548:INFO:Checking exceptions
+2025-06-04 22:11:18,548:INFO:Preloading libraries
+2025-06-04 22:11:18,548:INFO:Set up data.
+2025-06-04 22:11:18,551:INFO:Set up index.
+2025-06-04 22:11:25,647:INFO:Initializing predict_model()
+2025-06-04 22:11:25,647:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED034FE10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021ED03E6980>)
+2025-06-04 22:11:25,647:INFO:Checking exceptions
+2025-06-04 22:11:25,647:INFO:Preloading libraries
+2025-06-04 22:11:25,647:INFO:Set up data.
+2025-06-04 22:11:25,650:INFO:Set up index.
+2025-06-04 22:11:35,780:INFO:Initializing predict_model()
+2025-06-04 22:11:35,780:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED0358190>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021ED0148900>)
+2025-06-04 22:11:35,780:INFO:Checking exceptions
+2025-06-04 22:11:35,780:INFO:Preloading libraries
+2025-06-04 22:11:35,780:INFO:Set up data.
+2025-06-04 22:11:35,784:INFO:Set up index.
+2025-06-04 22:11:42,966:INFO:Initializing predict_model()
+2025-06-04 22:11:42,966:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED032EC90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021E95D8EE80>)
+2025-06-04 22:11:42,966:INFO:Checking exceptions
+2025-06-04 22:11:42,966:INFO:Preloading libraries
+2025-06-04 22:11:42,966:INFO:Set up data.
+2025-06-04 22:11:42,969:INFO:Set up index.
+2025-06-04 22:11:49,561:INFO:Initializing predict_model()
+2025-06-04 22:11:49,561:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021ED034D2D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['cliente_id', 'genero',
+                                             'nivel_educacion', 'region'],
+                                    transformer=Sim...
+                                    transformer=OneHotEncoder(cols=['nivel_educacion',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['cliente_id'],
+                                    transformer=TargetEncoder(cols=['cliente_id'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021ECF1BBBA0>)
+2025-06-04 22:11:49,561:INFO:Checking exceptions
+2025-06-04 22:11:49,561:INFO:Preloading libraries
+2025-06-04 22:11:49,562:INFO:Set up data.
+2025-06-04 22:11:49,565:INFO:Set up index.
