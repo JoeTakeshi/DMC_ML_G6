@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase09/Examen/mlruns/490197338570736591/8469a0a1095b4383b3936a9b27eddfae/artifacts
+end_time: 1749092906140
+entry_point_name: ''
+experiment_id: '490197338570736591'
+lifecycle_stage: active
+run_id: 8469a0a1095b4383b3936a9b27eddfae
+run_name: Quadratic Discriminant Analysis
+run_uuid: 8469a0a1095b4383b3936a9b27eddfae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749092905914
+status: 3
+tags: []
+user_id: GGjoe

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase09/Examen/mlruns/490197338570736591/c671bb5bede942919446f782c7e2a83d/artifacts
+end_time: 1749091191942
+entry_point_name: ''
+experiment_id: '490197338570736591'
+lifecycle_stage: active
+run_id: c671bb5bede942919446f782c7e2a83d
+run_name: Session Initialized ff99
+run_uuid: c671bb5bede942919446f782c7e2a83d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749091169435
+status: 3
+tags: []
+user_id: GGjoe

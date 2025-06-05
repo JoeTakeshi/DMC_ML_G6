@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase09/Examen/mlruns/490197338570736591/cec3ec517a8842a2bff961fc4dfc0259/artifacts
+end_time: 1749092906480
+entry_point_name: ''
+experiment_id: '490197338570736591'
+lifecycle_stage: active
+run_id: cec3ec517a8842a2bff961fc4dfc0259
+run_name: Light Gradient Boosting Machine
+run_uuid: cec3ec517a8842a2bff961fc4dfc0259
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749092906208
+status: 3
+tags: []
+user_id: GGjoe

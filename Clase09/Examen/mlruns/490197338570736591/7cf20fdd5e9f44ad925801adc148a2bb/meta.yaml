@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase09/Examen/mlruns/490197338570736591/7cf20fdd5e9f44ad925801adc148a2bb/artifacts
+end_time: 1749092905546
+entry_point_name: ''
+experiment_id: '490197338570736591'
+lifecycle_stage: active
+run_id: 7cf20fdd5e9f44ad925801adc148a2bb
+run_name: Dummy Classifier
+run_uuid: 7cf20fdd5e9f44ad925801adc148a2bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749092905352
+status: 3
+tags: []
+user_id: GGjoe

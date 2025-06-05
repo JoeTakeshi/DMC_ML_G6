@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase09/Examen/mlruns/490197338570736591/616a6858b56d4b318e2431668b296081/artifacts
+end_time: 1749091184657
+entry_point_name: ''
+experiment_id: '490197338570736591'
+lifecycle_stage: active
+run_id: 616a6858b56d4b318e2431668b296081
+run_name: Random Forest Classifier
+run_uuid: 616a6858b56d4b318e2431668b296081
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749091184438
+status: 3
+tags: []
+user_id: GGjoe

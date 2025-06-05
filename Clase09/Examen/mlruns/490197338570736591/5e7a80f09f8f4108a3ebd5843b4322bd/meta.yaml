@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase09/Examen/mlruns/490197338570736591/5e7a80f09f8f4108a3ebd5843b4322bd/artifacts
+end_time: 1749091185521
+entry_point_name: ''
+experiment_id: '490197338570736591'
+lifecycle_stage: active
+run_id: 5e7a80f09f8f4108a3ebd5843b4322bd
+run_name: Linear Discriminant Analysis
+run_uuid: 5e7a80f09f8f4108a3ebd5843b4322bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749091185315
+status: 3
+tags: []
+user_id: GGjoe

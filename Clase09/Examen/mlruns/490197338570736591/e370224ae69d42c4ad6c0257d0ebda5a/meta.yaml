@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GGjoe/OneDrive/Documentos/Visual%20Studio/test_prueba/DMC_ML_G6/Clase09/Examen/mlruns/490197338570736591/e370224ae69d42c4ad6c0257d0ebda5a/artifacts
+end_time: 1749091185818
+entry_point_name: ''
+experiment_id: '490197338570736591'
+lifecycle_stage: active
+run_id: e370224ae69d42c4ad6c0257d0ebda5a
+run_name: Extra Trees Classifier
+run_uuid: e370224ae69d42c4ad6c0257d0ebda5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749091185587
+status: 3
+tags: []
+user_id: GGjoe
