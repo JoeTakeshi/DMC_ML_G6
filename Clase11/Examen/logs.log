@@ -3167,3 +3167,171 @@ Please also refer to the documentation for alternative solver options:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2025-06-12 01:10:08,082:INFO:Initializing load_model()
 2025-06-12 01:10:08,082:INFO:load_model(model_name=propension_model, platform=None, authentication=None, verbose=True)
+2025-06-12 01:10:21,690:INFO:Initializing predict_model()
+2025-06-12 01:10:21,691:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E893E52D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'monthly_income_usd',
+                                             'app_usage_score',
+                                             'digital_profile_strength',
+                                             'num_contacts_uploaded',
+                                             'political_event_last_month'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=OneHotEncoder(cols=['residence_risk_zone'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8DBCDB740>)
+2025-06-12 01:10:21,691:INFO:Checking exceptions
+2025-06-12 01:10:21,691:INFO:Preloading libraries
+2025-06-12 01:10:21,691:INFO:Set up data.
+2025-06-12 01:10:21,694:INFO:Set up index.
+2025-06-12 01:10:22,724:INFO:Initializing predict_model()
+2025-06-12 01:10:22,724:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E895595650>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'monthly_income_usd',
+                                             'app_usage_score',
+                                             'digital_profile_strength',
+                                             'num_contacts_uploaded',
+                                             'political_event_last_month'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=OneHotEncoder(cols=['residence_risk_zone'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E895639F80>)
+2025-06-12 01:10:22,724:INFO:Checking exceptions
+2025-06-12 01:10:22,724:INFO:Preloading libraries
+2025-06-12 01:10:22,725:INFO:Set up data.
+2025-06-12 01:10:22,727:INFO:Set up index.
+2025-06-12 01:16:14,194:INFO:Initializing predict_model()
+2025-06-12 01:16:14,194:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E895592190>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'monthly_income_usd',
+                                             'app_usage_score',
+                                             'digital_profile_strength',
+                                             'num_contacts_uploaded',
+                                             'political_event_last_month'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=OneHotEncoder(cols=['residence_risk_zone'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8DBCDB740>)
+2025-06-12 01:16:14,194:INFO:Checking exceptions
+2025-06-12 01:16:14,194:INFO:Preloading libraries
+2025-06-12 01:16:14,195:INFO:Set up data.
+2025-06-12 01:16:14,197:INFO:Set up index.
+2025-06-12 01:17:02,883:INFO:Initializing predict_model()
+2025-06-12 01:17:02,883:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E895597C50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'monthly_income_usd',
+                                             'app_usage_score',
+                                             'digital_profile_strength',
+                                             'num_contacts_uploaded',
+                                             'political_event_last_month'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=OneHotEncoder(cols=['residence_risk_zone'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E895639E40>)
+2025-06-12 01:17:02,883:INFO:Checking exceptions
+2025-06-12 01:17:02,883:INFO:Preloading libraries
+2025-06-12 01:17:02,883:INFO:Set up data.
+2025-06-12 01:17:02,886:INFO:Set up index.
+2025-06-12 01:23:36,027:INFO:Initializing predict_model()
+2025-06-12 01:23:36,027:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E895595F90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'monthly_income_usd',
+                                             'app_usage_score',
+                                             'digital_profile_strength',
+                                             'num_contacts_uploaded',
+                                             'political_event_last_month'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=OneHotEncoder(cols=['residence_risk_zone'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E89563A160>)
+2025-06-12 01:23:36,027:INFO:Checking exceptions
+2025-06-12 01:23:36,027:INFO:Preloading libraries
+2025-06-12 01:23:36,027:INFO:Set up data.
+2025-06-12 01:23:36,030:INFO:Set up index.
+2025-06-12 01:23:41,739:INFO:Initializing predict_model()
+2025-06-12 01:23:41,739:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E895583F10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'monthly_income_usd',
+                                             'app_usage_score',
+                                             'digital_profile_strength',
+                                             'num_contacts_uploaded',
+                                             'political_event_last_month'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=OneHotEncoder(cols=['residence_risk_zone'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8DBCDB740>)
+2025-06-12 01:23:41,739:INFO:Checking exceptions
+2025-06-12 01:23:41,739:INFO:Preloading libraries
+2025-06-12 01:23:41,739:INFO:Set up data.
+2025-06-12 01:23:41,742:INFO:Set up index.
+2025-06-12 01:23:46,431:INFO:Initializing predict_model()
+2025-06-12 01:23:46,431:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E895588A50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'monthly_income_usd',
+                                             'app_usage_score',
+                                             'digital_profile_strength',
+                                             'num_contacts_uploaded',
+                                             'political_event_last_month'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['residence_risk_zone'],
+                                    transformer=OneHotEncoder(cols=['residence_risk_zone'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('trained_model', AdaBoostClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E895639F80>)
+2025-06-12 01:23:46,431:INFO:Checking exceptions
+2025-06-12 01:23:46,431:INFO:Preloading libraries
+2025-06-12 01:23:46,431:INFO:Set up data.
+2025-06-12 01:23:46,433:INFO:Set up index.
