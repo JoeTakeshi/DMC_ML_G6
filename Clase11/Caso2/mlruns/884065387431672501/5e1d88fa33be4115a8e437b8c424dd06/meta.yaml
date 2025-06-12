@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/884065387431672501/5e1d88fa33be4115a8e437b8c424dd06/artifacts
+end_time: 1749696857234
+entry_point_name: ''
+experiment_id: '884065387431672501'
+lifecycle_stage: active
+run_id: 5e1d88fa33be4115a8e437b8c424dd06
+run_name: Dummy Classifier
+run_uuid: 5e1d88fa33be4115a8e437b8c424dd06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749696856861
+status: 3
+tags: []
+user_id: GGjoe

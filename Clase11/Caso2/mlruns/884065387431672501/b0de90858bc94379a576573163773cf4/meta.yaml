@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/884065387431672501/b0de90858bc94379a576573163773cf4/artifacts
+end_time: 1749696858562
+entry_point_name: ''
+experiment_id: '884065387431672501'
+lifecycle_stage: active
+run_id: b0de90858bc94379a576573163773cf4
+run_name: Session Initialized f5b4
+run_uuid: b0de90858bc94379a576573163773cf4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749696837276
+status: 3
+tags: []
+user_id: GGjoe

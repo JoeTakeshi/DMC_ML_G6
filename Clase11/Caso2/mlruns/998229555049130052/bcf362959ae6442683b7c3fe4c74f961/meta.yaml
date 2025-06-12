@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/998229555049130052/bcf362959ae6442683b7c3fe4c74f961/artifacts
+end_time: 1749693265791
+entry_point_name: ''
+experiment_id: '998229555049130052'
+lifecycle_stage: active
+run_id: bcf362959ae6442683b7c3fe4c74f961
+run_name: AdaBoost Regressor
+run_uuid: bcf362959ae6442683b7c3fe4c74f961
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693265409
+status: 3
+tags: []
+user_id: GGjoe

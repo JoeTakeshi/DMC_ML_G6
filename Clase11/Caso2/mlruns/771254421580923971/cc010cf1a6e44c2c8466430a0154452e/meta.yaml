@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/771254421580923971/cc010cf1a6e44c2c8466430a0154452e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '771254421580923971'
+lifecycle_stage: active
+run_id: cc010cf1a6e44c2c8466430a0154452e
+run_name: Session Initialized 0bd6
+run_uuid: cc010cf1a6e44c2c8466430a0154452e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693279227
+status: 1
+tags: []
+user_id: GGjoe

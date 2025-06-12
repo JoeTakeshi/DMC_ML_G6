@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/884065387431672501/df99aa95f22046aba9a873c23f29ee4d/artifacts
+end_time: 1749706684340
+entry_point_name: ''
+experiment_id: '884065387431672501'
+lifecycle_stage: active
+run_id: df99aa95f22046aba9a873c23f29ee4d
+run_name: Extra Trees Classifier
+run_uuid: df99aa95f22046aba9a873c23f29ee4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749706683934
+status: 3
+tags: []
+user_id: GGjoe

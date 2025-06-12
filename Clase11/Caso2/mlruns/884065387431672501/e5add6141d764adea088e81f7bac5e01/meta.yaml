@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/884065387431672501/e5add6141d764adea088e81f7bac5e01/artifacts
+end_time: 1749696857740
+entry_point_name: ''
+experiment_id: '884065387431672501'
+lifecycle_stage: active
+run_id: e5add6141d764adea088e81f7bac5e01
+run_name: SVM - Linear Kernel
+run_uuid: e5add6141d764adea088e81f7bac5e01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749696857318
+status: 3
+tags: []
+user_id: GGjoe

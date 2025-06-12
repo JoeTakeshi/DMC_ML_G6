@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/771254421580923971/38c69bc0782f46baa9709b13b64a0fae/artifacts
+end_time: 1749693288618
+entry_point_name: ''
+experiment_id: '771254421580923971'
+lifecycle_stage: active
+run_id: 38c69bc0782f46baa9709b13b64a0fae
+run_name: K Neighbors Regressor
+run_uuid: 38c69bc0782f46baa9709b13b64a0fae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693288242
+status: 3
+tags: []
+user_id: GGjoe

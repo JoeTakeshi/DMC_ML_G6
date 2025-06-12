@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/884065387431672501/abd137e7eb4b456880ee195438aa91be/artifacts
+end_time: 1749696856311
+entry_point_name: ''
+experiment_id: '884065387431672501'
+lifecycle_stage: active
+run_id: abd137e7eb4b456880ee195438aa91be
+run_name: K Neighbors Classifier
+run_uuid: abd137e7eb4b456880ee195438aa91be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749696855915
+status: 3
+tags: []
+user_id: GGjoe

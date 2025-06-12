@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/771254421580923971/a4eed174d54e4191938d9f78361c4a44/artifacts
+end_time: 1749693286785
+entry_point_name: ''
+experiment_id: '771254421580923971'
+lifecycle_stage: active
+run_id: a4eed174d54e4191938d9f78361c4a44
+run_name: Orthogonal Matching Pursuit
+run_uuid: a4eed174d54e4191938d9f78361c4a44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693286416
+status: 3
+tags: []
+user_id: GGjoe
